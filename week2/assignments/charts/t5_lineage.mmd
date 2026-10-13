@@ -1,0 +1,11 @@
+flowchart LR
+    A["marine_shipments.csv<br/>12 rows - 206,500 kg"] --> D["marine_stg<br/>UK-locale dates<br/>TRIM + Title status"]
+    B["rail_shipments.xlsx<br/>10 rows - 295.25 tons"] --> E["rail_stg<br/>tons x 1000<br/>RL- prefix on IDs"]
+    C["road_shipments.csv<br/>15 rows raw"] --> F["road_stg<br/>-TOTAL -duplicate -blank<br/>= 12 rows - 76,900 kg"]
+    D --> G["Shipments<br/>34 rows x 8 cols<br/>append by name"]
+    E --> G
+    F --> G
+    G --> H["Measure<br/>SUM(WeightKG)"]
+    H --> I["Card on report<br/>578,650 kg"]
+    style I fill:#dcfce7,stroke:#16a34a,stroke-width:2px
+    style G fill:#dbeafe,stroke:#2563eb,stroke-width:2px

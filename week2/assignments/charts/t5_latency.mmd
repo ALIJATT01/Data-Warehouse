@@ -1,0 +1,13 @@
+flowchart TD
+    A["What decision does<br/>the consumer make?"] --> B["Seconds matter<br/>reroute a truck around<br/>a blocked motorway"]
+    A --> C["Minutes matter<br/>customer tracking<br/>their consignment"]
+    A --> D["Day-old data is fine<br/>CFO monthly<br/>cost-per-tonne report"]
+    A --> E["Week-old data is fine<br/>board quarterly<br/>mode-profitability review"]
+    B --> F["REAL-TIME<br/>streaming / event-driven"]
+    C --> G["NEAR-REAL-TIME<br/>micro-batch, minutes"]
+    D --> H["DAILY BATCH<br/>overnight refresh"]
+    E --> I["WEEKLY BATCH<br/>scheduled refresh"]
+    F -.->|"costs"| J["Always real-time is wrong:<br/>1. infrastructure cost<br/>2. skips the staging<br/>quality checkpoint"]
+    style F fill:#fee2e2,stroke:#dc2626
+    style H fill:#dcfce7,stroke:#16a34a
+    style I fill:#dcfce7,stroke:#16a34a

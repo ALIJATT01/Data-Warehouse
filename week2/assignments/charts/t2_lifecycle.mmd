@@ -1,0 +1,15 @@
+flowchart TD
+    A["1. Programme Planning<br/>PakFreight DW programme scoped"] --> B["2. Business Requirements<br/>One agreed question: total weight shipped"]
+    B --> C["3. Technical Architecture<br/>Power BI: staging - model - report"]
+    C --> D["4. Product Selection<br/>Power BI Desktop / Service"]
+    D --> E["5. Dimensional Modelling<br/>Grain = one shipment; conformed Date, Route"]
+    E --> F["6. Physical Design<br/>Shipments table: 34 rows x 8 cols"]
+    F --> G["7. ETL Design and Development<br/>3 _stg queries - append - Shipments"]
+    G --> H["8. BI Application Development<br/>Validation page: cards, bars, matrix"]
+    H --> I["9. Deployment<br/>Hide _stg queries, schedule Refresh"]
+    I --> J["10. Maintenance and Growth<br/>Iteration 2: Billing reuses Date, Route"]
+    J -.->|"new requirements"| B
+    style A fill:#dbeafe,stroke:#2563eb
+    style E fill:#fef3c7,stroke:#d97706
+    style G fill:#dcfce7,stroke:#16a34a
+    style J fill:#f3e8ff,stroke:#9333ea

@@ -1,0 +1,11 @@
+flowchart TD
+    A["Next refresh:<br/>rail adds Wagon_Type<br/>renames Freight Charges (PKR)<br/>to Charges_PKR"] --> B{"New column<br/>Wagon_Type?"}
+    B -->|"added"| C["SILENTLY DROPPED<br/>append matches by name,<br/>unknown column ignored"]
+    A --> D{"Column renamed<br/>to Charges_PKR?"}
+    D -->|"renamed"| E["REFRESH BREAKS<br/>M step references a<br/>column that no longer exists"]
+    C --> F["Detect BEFORE report:<br/>source-vs-contract<br/>column comparison"]
+    E --> G["Detect BEFORE report:<br/>same column check<br/>+ refresh smoke test"]
+    style C fill:#fef3c7,stroke:#d97706,stroke-width:2px
+    style E fill:#fee2e2,stroke:#dc2626,stroke-width:2px
+    style F fill:#dcfce7,stroke:#16a34a
+    style G fill:#dcfce7,stroke:#16a34a
