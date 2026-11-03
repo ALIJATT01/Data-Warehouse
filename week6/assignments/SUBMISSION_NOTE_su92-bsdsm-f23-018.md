@@ -10,10 +10,10 @@
 |---|---|
 | `W6_Quality_su92-bsdsm-f23-018.xlsx` | The workbook: T1 carry-forward audit, T2 profile, T3 reject contract, T4 reconciliation, T5 duplicates, T6 index and join path, T7 definition of done |
 | `W6_su92-bsdsm-f23-018.py` | The dual-route pipeline: 10 named steps, prints the ladder, asserts all 10 T7 checks |
-| `lab_pipeline.ipynb` | The same pipeline as an executed notebook, one cell per step |
-| `Task1.ipynb` … `Task7.ipynb` | One executed notebook per task; every number is computed from `data/` in-cell and asserted against the brief's targets |
-| `ONE_PAGE.md` | One page in my own words: rejects, Unknown routing, −1 spellings, index decision |
-| `README.md` | How to run everything from this folder |
+| `lab_pipeline_su92-bsdsm-f23-018.ipynb` | The same pipeline as an executed notebook, one cell per step |
+| `Task1_su92-bsdsm-f23-018.ipynb` … `Task7_su92-bsdsm-f23-018.ipynb` | One executed notebook per task; every number is computed from `data/` in-cell and asserted against the brief's targets |
+| `ONE_PAGE_su92-bsdsm-f23-018.md` | One page in my own words: rejects, Unknown routing, −1 spellings, index decision |
+| `README_su92-bsdsm-f23-018.md` | How to run everything from this folder |
 | `data/` | March source files only (marine / rail / road, dims, customer registry, alias map) |
 
 ## How to run
@@ -24,7 +24,7 @@ python3 W6_su92-bsdsm-f23-018.py \
   --customers data/customers_master.csv --out-dir .
 ```
 
-Or open `lab_pipeline.ipynb` / any `TaskN.ipynb` and run all cells from this folder.
+Or open `lab_pipeline_su92-bsdsm-f23-018.ipynb` / any `TaskN.ipynb` and run all cells from this folder.
 Running the pipeline writes `FactShipment_March.csv`, `RejectLog.csv`,
 `DimCustomer.csv` and `DimDate.csv` next to the script.
 

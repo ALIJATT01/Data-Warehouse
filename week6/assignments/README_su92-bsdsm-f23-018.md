@@ -7,14 +7,14 @@ March 2026 PakFreight quality lab. Python track (no .pbix).
 - `W6_Quality_su92-bsdsm-f23-018.xlsx` — T1–T7 workbook (T7: 10/10 checks pass)
 - `W6_su92-bsdsm-f23-018.py` — dual-route pipeline, 10 named steps,
   prints the reconciliation ladder and asserts all 10 T7 checks
-- `lab_pipeline.ipynb` — the same pipeline as an executed notebook (one cell per step)
-- `Task1.ipynb` … `Task7.ipynb` — one executed notebook per workbook task;
+- `lab_pipeline_su92-bsdsm-f23-018.ipynb` — the same pipeline as an executed notebook (one cell per step)
+- `Task1_su92-bsdsm-f23-018.ipynb` … `Task7_su92-bsdsm-f23-018.ipynb` — one executed notebook per workbook task;
   every number in them is computed from `data/` in-cell and asserted against the brief
 - `FactShipment_March.csv` (1,200 rows), `RejectLog.csv` (24 rows),
   `DimCustomer.csv` (40 businesses + Unknown), `DimDate.csv` (90 rows) —
   produced by running the pipeline (not shipped in this folder)
-- `ONE_PAGE.md` — rejects, Unknown routing, −1 spellings, index decision
-- `SUBMISSION_NOTE.md` — cover note: contents, how to run, verification summary
+- `ONE_PAGE_su92-bsdsm-f23-018.md` — rejects, Unknown routing, −1 spellings, index decision
+- `SUBMISSION_NOTE_su92-bsdsm-f23-018.md` — cover note: contents, how to run, verification summary
 - `data/` — March source files (marine / rail / road), dims, customer registry, alias map
 
 ## Verified results
@@ -34,6 +34,6 @@ python3 W6_su92-bsdsm-f23-018.py \
   --customers data/customers_master.csv --out-dir .
 ```
 
-Or open `lab_pipeline.ipynb` (or any `TaskN.ipynb`) and run all cells from this folder.
+Or open `lab_pipeline_su92-bsdsm-f23-018.ipynb` (or any `TaskN.ipynb`) and run all cells from this folder.
 The pipeline script without flags defaults to the workspace layout; the flags above
 point it at this folder's `data/` instead.
