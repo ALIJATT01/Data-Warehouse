@@ -1,0 +1,42 @@
+CustomerKey,CustomerName,City,Sector,Aliases
+101,Indus Textiles Ltd,Faisalabad,Textiles,INDUS TEXTILES LIMITED
+102,Shahbaz Cement Co,Hyderabad,Construction,
+103,Karachi Steel Mills,Karachi,Metals,Karachi Steel Mills.
+104,Pak Agro Exports,Multan,Agriculture,Pak Agro Exports (Pvt) Ltd
+105,Ravi Pharma Ltd,Lahore,Pharma,
+106,Nishtar Sugar Mills,Multan,Food,
+107,Bolan Marble Works,Quetta,Minerals,
+108,Gulberg Garments,Lahore,Textiles,
+109,Sialkot Sports Co,Sialkot,Manufacturing,Sialkot Sports Company
+110,Attock Chemicals,Rawalpindi,Chemicals,
+111,Makran Seafoods,Gwadar,Food,
+112,Lyallpur Spinning,Faisalabad,Textiles,
+113,Hunza Mineral Water,Abbottabad,Food,
+114,Thar Coal Logistics,Karachi,Minerals,
+115,Multan Mango Exports,Multan,Agriculture,
+116,Swat Timber Traders,Peshawar,Timber,
+117,Quetta Fruit Company,Quetta,Agriculture,
+118,Hyderabad Glassworks,Hyderabad,Manufacturing,
+119,Sukkur Rice Mills,Sukkur,Agriculture,Sukkur  Rice Mills
+120,Gujranwala Fans Ltd,Gujranwala,Manufacturing,
+121,Chenab Paper Mills,Faisalabad,Paper,
+122,Peshawar Leather Co,Peshawar,Leather,
+123,Clifton Electronics,Karachi,Electronics,
+124,Mehran Auto Parts,Karachi,Automotive,
+125,Korangi Plastics,Karachi,Chemicals,
+126,Faisalabad Looms,Faisalabad,Textiles,
+127,Abbottabad Herbals,Abbottabad,Pharma,
+128,Rawal Packaging,Islamabad,Paper,
+129,Sindh Fertilizers,Sukkur,Chemicals,
+130,Zarghoon Minerals,Quetta,Minerals,
+131,Lahore Tyre Company,Lahore,Automotive,lahore tyre co
+132,Port Qasim Bulk Handlers,Karachi,Logistics,
+133,Malir Dairy Products,Karachi,Food,
+134,Okara Poultry Feeds,Lahore,Food,
+135,Jhelum Bricks Ltd,Rawalpindi,Construction,
+136,Kohat Tobacco Co,Peshawar,Agriculture,
+137,Sahiwal Textiles,Multan,Textiles,
+138,Larkana Cotton Traders,Sukkur,Agriculture,
+139,Nowshera Pipes Ltd,Peshawar,Metals,
+140,Keamari Cold Storage,Karachi,Logistics,
+-1,Unknown,Unknown,Unknown,

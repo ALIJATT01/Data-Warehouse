@@ -1,0 +1,25 @@
+RejectID,SourceFile,SourceLine,ShipmentID_Raw,RejectReason,SourceRow
+R-001,marine_march.csv,11,MR-2901,WeightKG holds text — not a plain decimal,MR-2901|09/03/2026|Port Qasim|Faisalabad Dry Port|approx 7000|156000|IN TRANSIT|CU-138
+R-002,marine_march.csv,52,MR-2903,ShipDate unparseable — not DD/MM/YYYY or YYYY-MM-DD,MR-2903|00/00/0000|Port Qasim|Multan|16500|125500|IN TRANSIT|CU-902
+R-003,marine_march.csv,91,,ShipmentID blank — missing ID,|07/03/2026|Gwadar Port|Karachi Cantt|15500|118000|DELIVERED|CU-121
+R-004,marine_march.csv,93,MR-2905,ShipDate unparseable — not DD/MM/YYYY or YYYY-MM-DD,MR-2905|2026/13/04|Port Qasim|Lahore Dry Port|20500|156000|DELIVERED|CU-906
+R-005,marine_march.csv,189,,ShipmentID blank — missing ID,|06/03/2026|Karachi Port|Peshawar|14500|110000|DELAYED|CU-138
+R-006,marine_march.csv,218,MR-2904,ShipDate unparseable — not DD/MM/YYYY or YYYY-MM-DD,MR-2904|32/03/2026|Karachi Port|Sialkot Dry Port|13500|102500|DELAYED|CU-138
+R-007,marine_march.csv,240,MR-2902,WeightKG holds text — not a plain decimal,MR-2902|11/03/2026|Gwadar Port|Quetta|see note|137000|DELAYED|CU-114
+R-008,rail_march.xlsx,41,46904,WeightKG negative — below zero,46904|2026-03-27|Karachi Cantt|Peshawar Cantt|-32.5|305500|Delivered|CU-902
+R-009,rail_march.xlsx,56,46902,WeightKG holds text — not a plain decimal,46902|2026-03-18|Karachi Cantt|Multan|TBC|284500|Delivered|CU-135
+R-010,rail_march.xlsx,88,46901,WeightKG holds text — not a plain decimal,46901|2026-03-24|Pipri Marshalling Yard|Faisalabad|--|282000|In Transit|CU-118
+R-011,rail_march.xlsx,160,46903,ShipDate unparseable — not DD/MM/YYYY or YYYY-MM-DD,46903|32/03/2026|Pipri Marshalling Yard|Lahore|26.5|249000|Delivered|CU-107
+R-012,rail_march.xlsx,163,46905,WeightKG negative — below zero,46905|2026-03-07|Pipri Marshalling Yard|Rawalpindi|-30|282000|Delivered|CU-117
+R-013,road_march.csv,26,rd-5907,ShipDate unparseable — not DD/MM/YYYY or YYYY-MM-DD,rd-5907|31/02/2026|Lahore|Islamabad|6300|44500|delivered|CU-123
+R-014,road_march.csv,48,rd-5903,WeightKG holds text — not a plain decimal,rd-5903|2026-03-29|Quetta|Karachi|unknown|49000|in transit|CU-904
+R-015,road_march.csv,145,rd-5908,WeightKG negative — below zero,rd-5908|2026-03-29|Karachi|Hyderabad|-7200|51000|in transit|CU-906
+R-016,road_march.csv,194,rd-5906,ShipDate unparseable — not DD/MM/YYYY or YYYY-MM-DD,rd-5906|Mar-2026|Rawalpindi|Abbottabad|7100|50500|delivered|CU-128
+R-017,road_march.csv,214,rd-5910,WeightKG negative — below zero,rd-5910|2026-03-16|Multan|Lahore|-6300|44500|in transit|CU-107
+R-018,road_march.csv,314,rd-5901,WeightKG holds text — not a plain decimal,rd-5901|2026-03-10|Karachi|Sukkur|1.2e4|40500|delivered|CU-127
+R-019,road_march.csv,315,rd-5909,WeightKG negative — below zero,rd-5909|2026-03-28|Lahore|Faisalabad|-5700|40500|delayed|CU-130
+R-020,road_march.csv,538,,ShipmentID blank — missing ID,|2026-03-15|Islamabad|Peshawar|5600|40000|delivered|CU-138
+R-021,road_march.csv,558,rd-5902,WeightKG holds text — not a plain decimal,rd-5902|2026-03-17|Lahore|Sialkot|n/a|39000|in transit|CU-111
+R-022,road_march.csv,608,rd-5905,WeightKG holds text — not a plain decimal,rd-5905|2026-03-27|Lahore|Gujranwala|see note|51000|delayed|CU-120
+R-023,road_march.csv,699,rd-5904,WeightKG holds text — not a plain decimal,rd-5904|2026-03-16|Faisalabad|Multan|approx 7000|42500|delayed|CU-103
+R-024,road_march.csv,706,,ShipmentID blank — missing ID,|2026-03-25|Karachi|Sukkur|6200|44000|delivered|CU-112
